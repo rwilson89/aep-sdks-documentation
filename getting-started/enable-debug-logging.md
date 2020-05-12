@@ -10,7 +10,7 @@ Debug logging is an optional, yet critical SDK feature. It helps you ensure that
 | Verbose | In addition to detail from the _Debug_ level, _Verbose_ provides detailed, low-level information about how SDK processes database interactions and SDK events. |
 
 {% hint style="warning" %}
-You should only use `Error` or `Warning` in the production application, and use `Debug` or `Verbose` during devlopement. Using `Debug` or `Verbose` in the production application may lead to performace and security issues.
+You should only use `Error` or `Warning` in the production application, and use `Debug` or `Verbose` during developement. Using `Debug` or `Verbose` in the production application may lead to performance and security issues.
 {% endhint %}
 
 To enable debug logging, use the following methods:
